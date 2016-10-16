@@ -1,0 +1,269 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		C12D52EC1DB30216008458F5 /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = C12D52EB1DB30216008458F5 /* main.swift */; };
+		C12D52F51DB303E9008458F5 /* aliases.swift in Sources */ = {isa = PBXBuildFile; fileRef = C12D52F21DB303E9008458F5 /* aliases.swift */; };
+		C12D52F61DB303E9008458F5 /* bullet.swift in Sources */ = {isa = PBXBuildFile; fileRef = C12D52F31DB303E9008458F5 /* bullet.swift */; };
+		C12D52F71DB303E9008458F5 /* globes.swift in Sources */ = {isa = PBXBuildFile; fileRef = C12D52F41DB303E9008458F5 /* globes.swift */; };
+		C1F292A61DB323B700A83DBB /* util.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1F292A51DB323B700A83DBB /* util.swift */; };
+		C1F292A81DB330D300A83DBB /* config.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1F292A71DB330D300A83DBB /* config.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		C12D52E61DB30216008458F5 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		C12D52E81DB30216008458F5 /* RepoCMD */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = RepoCMD; sourceTree = BUILT_PRODUCTS_DIR; };
+		C12D52EB1DB30216008458F5 /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = main.swift; path = RepoCMD/main.swift; sourceTree = "<group>"; };
+		C12D52F21DB303E9008458F5 /* aliases.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = aliases.swift; sourceTree = "<group>"; };
+		C12D52F31DB303E9008458F5 /* bullet.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = bullet.swift; sourceTree = "<group>"; };
+		C12D52F41DB303E9008458F5 /* globes.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = globes.swift; sourceTree = "<group>"; };
+		C1F292A51DB323B700A83DBB /* util.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = util.swift; sourceTree = "<group>"; };
+		C1F292A71DB330D300A83DBB /* config.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = config.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		C12D52E51DB30216008458F5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		C12D52DF1DB30216008458F5 = {
+			isa = PBXGroup;
+			children = (
+				C12D52EA1DB30216008458F5 /* RepoCMD */,
+				C12D52E91DB30216008458F5 /* Products */,
+				C12D52EB1DB30216008458F5 /* main.swift */,
+			);
+			sourceTree = "<group>";
+		};
+		C12D52E91DB30216008458F5 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				C12D52E81DB30216008458F5 /* RepoCMD */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		C12D52EA1DB30216008458F5 /* RepoCMD */ = {
+			isa = PBXGroup;
+			children = (
+				C12D52F21DB303E9008458F5 /* aliases.swift */,
+				C12D52F31DB303E9008458F5 /* bullet.swift */,
+				C12D52F41DB303E9008458F5 /* globes.swift */,
+				C1F292A51DB323B700A83DBB /* util.swift */,
+				C1F292A71DB330D300A83DBB /* config.swift */,
+			);
+			path = RepoCMD;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		C12D52E71DB30216008458F5 /* RepoCMD */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C12D52EF1DB30216008458F5 /* Build configuration list for PBXNativeTarget "RepoCMD" */;
+			buildPhases = (
+				C12D52E41DB30216008458F5 /* Sources */,
+				C12D52E51DB30216008458F5 /* Frameworks */,
+				C12D52E61DB30216008458F5 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = RepoCMD;
+			productName = RepoCMD;
+			productReference = C12D52E81DB30216008458F5 /* RepoCMD */;
+			productType = "com.apple.product-type.tool";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		C12D52E01DB30216008458F5 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0730;
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = "Dude Guy ";
+				TargetAttributes = {
+					C12D52E71DB30216008458F5 = {
+						CreatedOnToolsVersion = 7.3.1;
+					};
+				};
+			};
+			buildConfigurationList = C12D52E31DB30216008458F5 /* Build configuration list for PBXProject "RepoCMD" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = C12D52DF1DB30216008458F5;
+			productRefGroup = C12D52E91DB30216008458F5 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				C12D52E71DB30216008458F5 /* RepoCMD */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		C12D52E41DB30216008458F5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C12D52F51DB303E9008458F5 /* aliases.swift in Sources */,
+				C12D52EC1DB30216008458F5 /* main.swift in Sources */,
+				C12D52F61DB303E9008458F5 /* bullet.swift in Sources */,
+				C1F292A81DB330D300A83DBB /* config.swift in Sources */,
+				C1F292A61DB323B700A83DBB /* util.swift in Sources */,
+				C12D52F71DB303E9008458F5 /* globes.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		C12D52ED1DB30216008458F5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.11;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		C12D52EE1DB30216008458F5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.11;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		C12D52F01DB30216008458F5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		C12D52F11DB30216008458F5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		C12D52E31DB30216008458F5 /* Build configuration list for PBXProject "RepoCMD" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C12D52ED1DB30216008458F5 /* Debug */,
+				C12D52EE1DB30216008458F5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C12D52EF1DB30216008458F5 /* Build configuration list for PBXNativeTarget "RepoCMD" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C12D52F01DB30216008458F5 /* Debug */,
+				C12D52F11DB30216008458F5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = C12D52E01DB30216008458F5 /* Project object */;
+}
