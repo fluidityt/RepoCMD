@@ -15,7 +15,7 @@ let bullet1 = Bullet()
 //bullet1.node.speed = Bullet.randomSpd()
 
 
-bullet1.spawn(Bullet)
+//bullet1.spawn(Bullet)
 
 
 

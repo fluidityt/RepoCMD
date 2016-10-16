@@ -9,6 +9,10 @@
 import Foundation
 import SpriteKit
 
+typealias Sprite = SKSpriteNode
+typealias Shape  = SKShapeNode
+typealias Node   = SKNode
+typealias Camera = SKCameraNode
 
 public func printError<t>(s: t) {
 		print("ERROR: \(s)")
@@ -122,4 +126,10 @@ func random(min: CGFloat,_ max: CGFloat) -> CGFloat {
 	
 	// TODO: Figure out if maximum is negative
 	return result3 - submin
+}
+
+public extension SKNode {
+	public func addToScene(scene: SKScene = gScene!) {
+		scene.addChild(self)
+	}
 }

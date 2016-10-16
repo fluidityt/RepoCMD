@@ -7,3 +7,10 @@
 //
 
 import Foundation
+import SpriteKit
+
+typealias Yourself = Void
+let myself = Void.self
+
+typealias NSTI = NSTimeInterval
+
