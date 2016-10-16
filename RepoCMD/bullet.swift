@@ -60,7 +60,7 @@ struct Bullet {
 				}
 		}
 		
-		// Calculate speed (duration), and radius (scale)... And other stuff!
+		// Calculate speed (duration), and radius (scale)... And other stuff! 
 		// TODO: Should probably put the spawn timer in here.and Config.... but it would be my only var..
 		private static func setDifficulty(level: Difficulty, range: (CGF,CGF) = config.dculty.range)
 			-> (duration: NSTI, scale: CGF) {
