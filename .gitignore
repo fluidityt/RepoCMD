@@ -1,2 +1,12 @@
 
 *.xcbkptlist
+
+*.xml
+
+*.iml
+
+*.plist
+
+*.plist
+
+RepoCMD.xcodeproj/xcuserdata/dudeguy.xcuserdatad/xcschemes/xcschememanagement.plist
